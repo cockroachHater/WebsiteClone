@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+  transform: rotate(0.03deg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  list-style: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+a:visited {
+  color: white;
+}
+.logoImg {
+  width: 150px;
+  margin-bottom: 12px;
+}
+.navbar {
+  padding-left: 2%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar .nav_menu {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar .nav_icon_list {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .nav_icons {
+  position: absolute;
+  right: 0px;
+}
+.navbar .nav_icons .nav_icon_list li:nth-child(3) {
+  background-color: #97784c;
+  height: 70px;
+  width: 200px;
+}
+.navbar .nav_icons .topBtn a {
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .nav_icons .topBtn {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar .nav_icons {
+    right: 15px;
   }
+}
+.navbar .dropdownMenu {
+  position: absolute;
+  margin-left: -10px;
+  background-color: black;
+  padding: 10px;
+}
+.navbar .dropdownMenu li {
+  padding: 10px 10px 10px 0;
+  font-size: 14px;
 }

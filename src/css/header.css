@@ -1,0 +1,13 @@
+/* break-point */
+@media screen and (max-width: 1200px) {
+  /* pc */
+}
+@media screen and (max-width: 992px) {
+  /* tablet */
+}
+@media screen and (max-width: 768) {
+  /* moble */
+}
+@media screen and (max-width: 576) {
+  /* moble */
+}

@@ -1,0 +1,261 @@
+/* .fullpage::-webkit-scrollbar{
+  display:none;
+} */
+.fullpage {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+.page {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+.moreBtn {
+  font-family: 'Gamtan_Bold';
+  margin-top: 20px;
+  width: 150px;
+  padding: 15px;
+}
+.section {
+  max-width: 1300px;
+}
+p {
+  line-height: 25px;
+}
+.section {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* section01 */
+.player {
+  position: absolute;
+  z-index: -2;
+}
+.player video {
+  object-fit: cover;
+}
+
+.main_wrap {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  bottom: 15%;
+  text-align: center;
+  align-items: center;
+}
+.main_start_btn a {
+  color: black;
+  font-family: 'Gamtan_Regular';
+  font-weight: 700;
+}
+.main_title_text {
+  color: white;
+  font-size: 70px;
+}
+.main_start_btn {
+  width: 310px;
+  height: 75px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background: rgba(220, 177, 92, 1);
+}
+.main_start_btn:hover {
+  background-color: #e3bc66;
+  transition: all 0.5s;
+}
+
+/* section02 */
+.container .box h3 {
+  color: black;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.container {
+  padding: 30px;
+}
+.container .box-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 25px;
+  overflow-x: auto;
+}
+.container .box-wrap .box {
+  width: 410px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+.container .box-wrap .box img {
+  border-radius: 5px;
+}
+
+/* section03 */
+.main_banner {
+  height: 314px;
+  background: url('https://s1.pearlcdn.com/KR/Upload/BANNER/MAIN/bannerImage_20240507110843koKR.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+/* section04 */
+.section04 h2 {
+  font-size: 46px;
+}
+.section04 p {
+  color: #938a89;
+  text-align: left;
+}
+.section04 {
+  height: auto;
+  background: url('/public/assets/img/main_feature_bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  padding-bottom: 200px;
+}
+.section04 .section4_top {
+  display: block;
+  padding-top: 8%;
+  padding-bottom: 20%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section4_top .top_title {
+  font-family: Gamtan_Bold;
+  font-size: 54px;
+  font-weight: 600;
+}
+.section4_top .top_description {
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+}
+.section04 .adventure {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.section04 .adventure .ad_left {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section04 .battle_img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.section04 .battle {
+  margin-top: 15%;
+}
+.section04 .battle_img .back_img {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 355px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url('/public/assets/img/main_feature_battle_thumb.jpg');
+  background-position: center 80%;
+  background-size: cover;
+}
+.section04 .battle_img .front_img {
+  position: absolute;
+  background-image: url('/public/assets/img/main_feature_battle_character.png');
+  bottom: 0px;
+  width: 100%;
+  height: 677px;
+  background-position: center center;
+  background-size: cover;
+}
+.section04 .battle .battle_text {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+}
+.section04 .battle .battle_title {
+  margin: 0;
+  padding-left: 20px;
+}
+.section04 .battle_description {
+  color: #938a89;
+  padding-left: 20px;
+  padding-bottom: 100px;
+}
+
+.section04 .life {
+  margin-top: 5%;
+}
+.section04 .life_zone {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 550px;
+  position: relative;
+}
+.section04 .life .left_img img {
+  position: absolute;
+}
+.section04 .life .left_img .img_ch {
+  bottom: 0px;
+  margin-left: -30px;
+}
+.section04 .life .left_img .img_bg {
+  bottom: 0px;
+  border-radius: 5px;
+}
+.section04 .life .left_img .img_bird {
+  top: 40px;
+  left: 30%;
+}
+.section04 .life .center_text {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+.section04 .life .right_img .right_top_img {
+  position: absolute;
+  right: 0px;
+  top: -100px;
+}
+.section04 .life .right_img .right_bottom_img {
+  position: absolute;
+  bottom: -50px;
+  right: 80px;
+}
+
+/* section05 */
+.section05 h2 {
+  font-size: 56px;
+}
+.parallax h2,
+p {
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.parallax .parallax-one {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url('/public/assets/img/main_world_bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
