@@ -29,59 +29,6 @@ nav {
 a:visited {
   color: white;
 }
-.logoImg {
-  width: 150px;
-  margin-bottom: 12px;
-}
-.navbar {
-  padding-left: 2%;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.navbar .nav_menu {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.navbar .nav_icon_list {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.navbar .nav_icons {
-  position: absolute;
-  right: 0px;
-}
-.navbar .nav_icons .nav_icon_list li:nth-child(3) {
-  background-color: #97784c;
-  height: 70px;
-  width: 200px;
-}
-.navbar .nav_icons .topBtn a {
-  display: block;
-  text-align: center;
-  margin-top: 25px;
-}
-@media screen and (max-width: 1024px) {
-  .navbar .nav_icons .topBtn {
-    display: none;
-  }
-  .navbar .nav_icons {
-    right: 15px;
-  }
-}
-.navbar .dropdownMenu {
-  position: absolute;
-  margin-left: -10px;
-  background-color: black;
-  padding: 10px;
-}
-.navbar .dropdownMenu li {
-  padding: 10px 10px 10px 0;
-  font-size: 14px;
+div {
+  word-break: keep-all;
 }

@@ -1,7 +1,7 @@
 export default function Section02() {
   return (
-    <div className="container">
-      <div className="box-wrap">
+    <div className="section02">
+      <div className="box-wrap section">
         <div className="box">
           <a href="#">
             <div className="box_img">

@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player'
 
 export default function Section01() {
   return (
-    <div className="page">
+    <div className="page section01">
       <ReactPlayer
         className="player"
         url={

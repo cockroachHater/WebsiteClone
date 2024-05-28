@@ -1,13 +1,133 @@
+.logoImg {
+  width: 150px;
+  margin-bottom: 12px;
+}
+.logoImg_side {
+  width: 210px;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.navbar {
+  padding-left: 2%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 3;
+}
+.navbar .nav_menu {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar .nav_icon_list {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .nav_icons {
+  position: absolute;
+  right: 0px;
+}
+.navbar .nav_icons .nav_icon_list li:nth-child(3) {
+  background-color: #97784c;
+  height: 70px;
+  width: 200px;
+}
+.navbar .nav_icons .topBtn a {
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+.navbar .dropdownMenu {
+  position: absolute;
+  margin-left: -10px;
+  background-color: black;
+  padding: 10px;
+}
+.navbar .dropdownMenu li {
+  padding: 10px 10px 10px 0;
+  font-size: 14px;
+}
+.navbar .nav_toggle_btn {
+  display: none;
+}
+
+/* side Navbar */
+.navbar .nav_side {
+  display: none;
+}
+.navbar .nav_side .side_nav_menu {
+  padding: 0;
+}
+.side_nav_menu ul {
+  transition: all 0.5s;
+}
+.navbar .nav_side .nav_side_submenu {
+  padding-left: 10px;
+  color: white;
+  opacity: 0.6;
+}
+.navbar .nav_side .nav_side_top {
+  display: flex;
+}
 /* break-point */
-@media screen and (max-width: 1200px) {
-  /* pc */
-}
-@media screen and (max-width: 992px) {
-  /* tablet */
-}
-@media screen and (max-width: 768) {
-  /* moble */
-}
-@media screen and (max-width: 576) {
-  /* moble */
+@media screen and (max-width: 1024px) {
+  .navbar .nav_toggle_btn {
+    display: block;
+  }
+  .navbar .nav_icons .topBtn {
+    display: none;
+  }
+  .navbar .nav_icons {
+    right: 15px;
+  }
+  .navbar .nav_menu {
+    display: none;
+  }
+  .navbar .nav_logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* side Navbar */
+  .navbar .nav_side {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url('/public/assets/img/header_mob_nav.png');
+    background-position: center center;
+    background-size: cover;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+  }
+  .navbar .nav_side a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .navbar .nav_side .nav_side_close {
+    font-size: 50px;
+    font-weight: 200;
+    transition: 0s;
+  }
+  .navbar .nav_side .nav_side_link {
+    padding: 5px 0 5px 0;
+  }
+  .navbar .nav_side .nav_side_link:hover {
+    cursor: pointer;
+  }
 }

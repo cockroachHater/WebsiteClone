@@ -15,13 +15,13 @@ export default function Section06() {
   return (
     <>
       <div className="section06">
-        <div className="symbol">
-          <img className="symbolImg" src={chData.symbImgUrl} />
-        </div>
-        <div className="char">
-          <img className="charImg" src={chData.chImgUrl} />
-        </div>
         <div className="section">
+          <div className="symbol">
+            <img className="symbolImg" src={chData.symbImgUrl} />
+          </div>
+          <div className="char">
+            <img className="charImg" src={chData.chImgUrl} />
+          </div>
           <div className="char_text">
             <h2>{chData.name}</h2>
             <p>
