@@ -1,4 +1,4 @@
-export const header_data = [
+export const headerData = [
   {
     id: 0,
     title: '새소식',

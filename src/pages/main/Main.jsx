@@ -5,6 +5,7 @@ import Section03 from '../../components/main/Section03'
 import Section04 from '../../components/main/Section04'
 import Section05 from '../../components/main/Section05'
 import Section06 from '../../components/main/Section06'
+import Section07 from '../../components/main/Section07'
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
       <Section04 />
       <Section05 />
       <Section06 />
+      <Section07 />
     </>
   )
 }

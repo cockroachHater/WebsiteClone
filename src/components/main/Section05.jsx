@@ -2,8 +2,8 @@ export default function Section05() {
   return (
     <>
       <div className="section05">
-        <div class="parallax">
-          <div class="parallax-one">
+        <div className="parallax">
+          <div className="parallax-one">
             <h2>광활한 오픈월드</h2>
             <p>
               숲과 바다, 사막과 설원

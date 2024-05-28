@@ -18,9 +18,6 @@
   width: 150px;
   padding: 15px;
 }
-.section {
-  max-width: 1300px;
-}
 p {
   line-height: 25px;
 }
@@ -47,14 +44,14 @@ p {
   text-align: center;
   align-items: center;
 }
+.main_title_text {
+  color: white;
+  font-size: 70px;
+}
 .main_start_btn a {
   color: black;
   font-family: 'Gamtan_Regular';
   font-weight: 700;
-}
-.main_title_text {
-  color: white;
-  font-size: 70px;
 }
 .main_start_btn {
   width: 310px;
@@ -258,4 +255,151 @@ p {
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/* section06 */
+.section06 {
+  height: auto;
+  background-image: url('/public/assets/img/main_character_class_bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+.section06 .symbol {
+  position: relative;
+}
+.section06 .symbolImg {
+  position: absolute;
+  height: 400px;
+  width: auto;
+  left: 35%;
+  margin-top: 10%;
+  height: 400px;
+  z-index: 2;
+  opacity: 0.05;
+}
+.section06 .char {
+  position: relative;
+}
+.section06 .charImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  /* width: 100%; */
+  width: auto;
+  height: 100vh;
+  z-index: 2;
+}
+.section06 .char_text {
+  position: relative;
+  padding-top: 200px;
+  z-index: 3;
+}
+.section06 .char_text h2 {
+  margin: 0;
+  color: white;
+  font-size: 54px;
+}
+.section06 .char_text p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #938a89;
+}
+.section06 .char_text .detail_text {
+  font-size: 14px;
+  color: #d6b98d;
+  font-weight: 500;
+}
+.section06 .main_btn {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.section06 .select_zone {
+  position: relative;
+  z-index: 3;
+}
+.section06 .char_selector {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  margin-bottom: 80px;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  width: calc(100% + 5px);
+}
+.section06 .char_box {
+  height: 82px;
+  width: 82px;
+}
+.section06 .char_box img {
+  position: absolute;
+  border-radius: 5px;
+}
+.section06 .char_box:hover img:nth-child(2) {
+  display: none;
+}
+
+/* section07 */
+.section07 {
+  background-image: url('/public/assets/img/main_media_bg.jpg');
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.section07 .media {
+  padding-top: 120px;
+}
+.section07 .top_title {
+  color: black;
+  font-size: 54px;
+  text-align: center;
+  font-family: 'Gamtan_Bold';
+}
+.section07 .top_description {
+  color: black;
+}
+.section07 .swiper_zone {
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+/* swiper */
+.section07 .swiper-wrapper {
+  padding: 100px 0 100px 0px;
+}
+.section07 .swiper_zone .box {
+  max-width: 350px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.section07 .swiper_zone .box .inner_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.swiper-slide-active {
+  z-index: 1;
+}
+.swiper-slide-active .box {
+  transform: scale(1.5);
+}
+.section07 .story {
+  margin-bottom: 190px;
+}
+.section07 .story_title {
+  color: black;
+  font-size: 46px;
+  text-align: center;
+  font-family: 'Gamtan_Bold';
+}
+.section07 .story_start_btn {
+  display: flex;
+  justify-content: center;
 }

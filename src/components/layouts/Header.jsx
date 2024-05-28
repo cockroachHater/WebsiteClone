@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Icon } from '@iconify/react'
-import { header_data } from '../../utils/data/header_data'
+import { headerData } from '../../utils/data/headerData'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
@@ -16,7 +16,7 @@ export default function Header() {
         </div>
 
         <ul className="nav_menu">
-          {header_data.map((menu, i) => {
+          {headerData.map((menu, i) => {
             const dropdown_menu = menu.submenu
             return (
               <li
