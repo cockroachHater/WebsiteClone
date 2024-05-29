@@ -6,7 +6,8 @@ export const characterData = [
     line2: '공격과 방어가 적절한 조화를 이루는 근접형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_01.png',
-    chImgUrl: '/assets/img/char_01.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_0.png?v=1',
     cellActiveImgUrl: '/assets/img/active_01.jpg',
     cellBlackImgUrl: '/assets/img/black_01.jpg',
   },
@@ -17,7 +18,8 @@ export const characterData = [
     line2: '상대를 괴롭히며 플레이할 수 있는 원거리형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_02.png',
-    chImgUrl: '/assets/img/char_02.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_4.png?v=1',
     cellActiveImgUrl: '/assets/img/active_02.jpg',
     cellBlackImgUrl: '/assets/img/black_02.jpg',
   },
@@ -28,7 +30,8 @@ export const characterData = [
     line2: '접근전과 원거리전에서 모두 능통한 하이브리드형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_03.png',
-    chImgUrl: '/assets/img/char_03.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_8.png?v=1',
     cellActiveImgUrl: '/assets/img/active_03.jpg',
     cellBlackImgUrl: '/assets/img/black_03.jpg',
   },
@@ -39,7 +42,8 @@ export const characterData = [
     line2: '적을 무차별 공격하는 괴물같은 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_04.png',
-    chImgUrl: '/assets/img/char_04.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_12.png?v=1',
     cellActiveImgUrl: '/assets/img/active_04.jpg',
     cellBlackImgUrl: '/assets/img/black_04.jpg',
   },
@@ -50,7 +54,8 @@ export const characterData = [
     line2: '흑랑을 타고 강한 적들을 상대할 수 있도록 명력하는 소환형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_05.png',
-    chImgUrl: '/assets/img/char_05.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_16.png?v=1',
     cellActiveImgUrl: '/assets/img/active_05.jpg',
     cellBlackImgUrl: '/assets/img/black_05.jpg',
   },
@@ -61,7 +66,8 @@ export const characterData = [
     line2: '다양한 동양의 무예를 구사하는 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_06.png',
-    chImgUrl: '/assets/img/char_06.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_20.png?v=1',
     cellActiveImgUrl: '/assets/img/active_06.jpg',
     cellBlackImgUrl: '/assets/img/black_06.jpg',
   },
@@ -72,7 +78,8 @@ export const characterData = [
     line2: '어떤 동작에서도 물 흐르듯 자연스러운 연계기를 구사하는 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_07.png',
-    chImgUrl: '/assets/img/char_07.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_21.png?v=1',
     cellActiveImgUrl: '/assets/img/active_07.jpg',
     cellBlackImgUrl: '/assets/img/black_07.jpg',
   },
@@ -83,7 +90,8 @@ export const characterData = [
     line2: '검과 방패를 쥔 채 전장의 선두에서 활약하는 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_08.png',
-    chImgUrl: '/assets/img/char_08.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_24.png?v=1',
     cellActiveImgUrl: '/assets/img/active_08.jpg',
     cellBlackImgUrl: '/assets/img/black_08.jpg',
   },
@@ -94,7 +102,8 @@ export const characterData = [
     line2: ' ',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_09.png',
-    chImgUrl: '/assets/img/char_09.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_25.png?v=1',
     cellActiveImgUrl: '/assets/img/active_09.jpg',
     cellBlackImgUrl: '/assets/img/black_09.jpg',
   },
@@ -105,7 +114,8 @@ export const characterData = [
     line2: ' ',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_10.png',
-    chImgUrl: '/assets/img/char_10.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_26.png?v=1',
     cellActiveImgUrl: '/assets/img/active_10.jpg',
     cellBlackImgUrl: '/assets/img/black_10.jpg',
   },
@@ -117,7 +127,8 @@ export const characterData = [
     line2: '적을 제압하는 마법형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_11.png',
-    chImgUrl: '/assets/img/char_11.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_28.png?v=1',
     cellActiveImgUrl: '/assets/img/active_11.jpg',
     cellBlackImgUrl: '/assets/img/black_11.jpg',
   },
@@ -128,7 +139,8 @@ export const characterData = [
     line2: '원거리에서 다양한 자연 원소를 무기 삼는 마법형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_12.png',
-    chImgUrl: '/assets/img/char_12.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_31.png?v=1',
     cellActiveImgUrl: '/assets/img/active_12.jpg',
     cellBlackImgUrl: '/assets/img/black_12.jpg',
   },
@@ -139,7 +151,8 @@ export const characterData = [
     line2: ' ',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_13.png',
-    chImgUrl: '/assets/img/char_13.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_27.png?v=1',
     cellActiveImgUrl: '/assets/img/active_13.jpg',
     cellBlackImgUrl: '/assets/img/black_13.jpg',
   },
@@ -150,7 +163,8 @@ export const characterData = [
     line2: '맨손 격투 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_14.png',
-    chImgUrl: '/assets/img/char_14.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_19.png?v=1',
     cellActiveImgUrl: '/assets/img/active_14.jpg',
     cellBlackImgUrl: '/assets/img/black_14.jpg',
   },
@@ -161,7 +175,8 @@ export const characterData = [
     line2: '권법과 기공술 등 기술을 구사하는 근접형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_15.png',
-    chImgUrl: '/assets/img/char_15.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_23.png?v=1',
     cellActiveImgUrl: '/assets/img/active_15.jpg',
     cellBlackImgUrl: '/assets/img/black_15.jpg',
   },
@@ -172,7 +187,8 @@ export const characterData = [
     line2: '반월추로 이루어진 무기를 자유자재로 다루는 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_16.png',
-    chImgUrl: '/assets/img/char_16.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_11.png?v=1',
     cellActiveImgUrl: '/assets/img/active_16.jpg',
     cellBlackImgUrl: '/assets/img/black_16.jpg',
   },
@@ -183,7 +199,8 @@ export const characterData = [
     line2: '궁술을 구사하는 원거리형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_17.png',
-    chImgUrl: '/assets/img/char_17.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_29.png?v=1',
     cellActiveImgUrl: '/assets/img/active_17.jpg',
     cellBlackImgUrl: '/assets/img/black_17.jpg',
   },
@@ -195,7 +212,8 @@ export const characterData = [
     line2: ' ',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_18.png',
-    chImgUrl: '/assets/img/char_18.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_17.png?v=1',
     cellActiveImgUrl: '/assets/img/active_18.jpg',
     cellBlackImgUrl: '/assets/img/black_18.jpg',
   },
@@ -206,7 +224,8 @@ export const characterData = [
     line2: '묵직한 공격으로 적을 제압하는 근접형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_19.png',
-    chImgUrl: '/assets/img/char_19.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_5.png?v=1',
     cellActiveImgUrl: '/assets/img/active_19.jpg',
     cellBlackImgUrl: '/assets/img/black_19.jpg',
   },
@@ -217,7 +236,8 @@ export const characterData = [
     line2: '변칙적인 공격을 선보이는 중근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_20.png',
-    chImgUrl: '/assets/img/char_20.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_1.png?v=1',
     cellActiveImgUrl: '/assets/img/active_20.jpg',
     cellBlackImgUrl: '/assets/img/black_20.jpg',
   },
@@ -229,7 +249,8 @@ export const characterData = [
     line2: '동시에 선보이는 중근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_21.png',
-    chImgUrl: '/assets/img/char_21.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_9.png?v=1',
     cellActiveImgUrl: '/assets/img/active_21.jpg',
     cellBlackImgUrl: '/assets/img/black_21.jpg',
   },
@@ -240,7 +261,8 @@ export const characterData = [
     line2: '시간과 공간을 비틀어 공격을 퍼붓는 마법형 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_22.png',
-    chImgUrl: '/assets/img/char_22.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_2.png?v=1',
     cellActiveImgUrl: '/assets/img/active_22.jpg',
     cellBlackImgUrl: '/assets/img/black_22.jpg',
   },
@@ -252,7 +274,8 @@ export const characterData = [
       '늘어나는 검과 로프를 이용해 예측 불가능한 공격을 선보이는 근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_23.png',
-    chImgUrl: '/assets/img/char_23.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_10.png?v=1',
     cellActiveImgUrl: '/assets/img/active_23.jpg',
     cellBlackImgUrl: '/assets/img/black_23.jpg',
   },
@@ -264,7 +287,8 @@ export const characterData = [
       '그 에너지를 양손검 슬레이어로 방출하며 강력한 일격을 가하는 근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_24.png',
-    chImgUrl: '/assets/img/char_24.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_7.png?v=1',
     cellActiveImgUrl: '/assets/img/active_24.jpg',
     cellBlackImgUrl: '/assets/img/black_24.jpg',
   },
@@ -275,7 +299,8 @@ export const characterData = [
     line2: '물흐르듯 가벼운 움직임으로 전투하는 중근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_25.png',
-    chImgUrl: '/assets/img/char_25.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_30.png?v=1',
     cellActiveImgUrl: '/assets/img/active_25.jpg',
     cellBlackImgUrl: '/assets/img/black_25.jpg',
   },
@@ -286,7 +311,8 @@ export const characterData = [
     line2: '호령부로 적을 유혹해 비녀칼로 치명상을 입히는 원근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_26.png',
-    chImgUrl: '/assets/img/char_26.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_15.png?v=1',
     cellActiveImgUrl: '/assets/img/active_26.jpg',
     cellBlackImgUrl: '/assets/img/black_26.jpg',
   },
@@ -297,7 +323,8 @@ export const characterData = [
     line2: '대지의 금속과 망치를 활용하는 근거리 캐릭터',
     detailUrl: '#',
     symbImgUrl: '/assets/img/symbol_27.png',
-    chImgUrl: '/assets/img/char_27.png',
+    chImgUrl:
+      'https://s1.pearlcdn.com/KR/contents/img/portal/main/main_character_class_6.png?v=1',
     cellActiveImgUrl: '/assets/img/active_27.jpg',
     cellBlackImgUrl: '/assets/img/black_27.jpg',
   },

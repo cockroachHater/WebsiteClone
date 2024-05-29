@@ -1,6 +1,22 @@
+import { useEffect } from 'react'
 import ReactPlayer from 'react-player'
 
 export default function Section01() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(e => {
+      e.forEach(ani => {
+        if (ani.isIntersecting) {
+          // 등장시
+          ani.target.style.opacity = 1
+        } else {
+          // 퇴장시
+          ani.target.style.opacity = 0
+        }
+      })
+    })
+    const h1text = document.querySelectorAll('h1')
+    observer.observe(h1text[0])
+  }, [])
   return (
     <div className="page section01">
       <ReactPlayer

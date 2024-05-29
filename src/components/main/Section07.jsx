@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { slideData } from '../../utils/data/slideData'
+import { useEffect } from 'react'
 
 export default function Section07() {
   const params = {
@@ -10,23 +11,19 @@ export default function Section07() {
     centeredSlides: true,
     breakpoints: {
       320: {
-        // >= 320px
         slidesPerView: 1.5,
         spaceBetween: 20,
       },
 
       765: {
-        // >= 765px
         slidesPerView: 3,
         spaceBetween: 10,
       },
       1024: {
-        // >= 1024px
         slidesPerView: 3.5,
         spaceBetween: 20,
       },
       1400: {
-        // >= 1024px
         slidesPerView: 3.5,
         spaceBetween: 10,
       },
@@ -40,6 +37,26 @@ export default function Section07() {
       },
     },
   }
+  useEffect(() => {
+    const observer = new IntersectionObserver(e => {
+      e.forEach(ani => {
+        if (ani.isIntersecting) {
+          ani.target.style.opacity = 1
+          ani.target.style.transform = 'translateZ(0)'
+        } else {
+          ani.target.style.opacity = 0
+        }
+      })
+    })
+    const h2text = document.querySelectorAll('h2')
+    h2text.forEach(text => {
+      observer.observe(text)
+    })
+    const ptext = document.querySelectorAll('p')
+    ptext.forEach(text => {
+      observer.observe(text)
+    })
+  }, [])
 
   return (
     <>

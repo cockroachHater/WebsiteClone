@@ -131,3 +131,9 @@
     cursor: pointer;
   }
 }
+@media screen and (max-width: 768px) {
+  .logoImg {
+    margin-bottom: 7px;
+    margin-right: 38px;
+  }
+}

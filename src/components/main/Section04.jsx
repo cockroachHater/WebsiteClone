@@ -1,4 +1,31 @@
+import { useEffect } from 'react'
+
 export default function Section04() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(e => {
+      e.forEach(ani => {
+        if (ani.isIntersecting) {
+          ani.target.style.opacity = 1
+          ani.target.style.transform = 'translateZ(0)'
+        } else {
+          ani.target.style.opacity = 0
+        }
+      })
+    })
+    const h2text = document.querySelectorAll('h2')
+    h2text.forEach(text => {
+      observer.observe(text)
+    })
+    const ptext = document.querySelectorAll('p')
+    ptext.forEach(text => {
+      observer.observe(text)
+    })
+    const img = document.querySelectorAll('img')
+    img.forEach(imgbox => {
+      observer.observe(imgbox)
+    })
+  }, [])
+
   return (
     <>
       <div className="section04">

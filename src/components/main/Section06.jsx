@@ -3,13 +3,27 @@ import { characterData } from '../../utils/data/characterData'
 
 export default function Section06() {
   const [chData, setChData] = useState(characterData[0])
-
-  const checkNum = i => {
-    setChData(characterData[i])
-  }
+  const [id, setId] = useState(null)
 
   useEffect(() => {
-    console.log(chData.name)
+    const observer = new IntersectionObserver(e => {
+      e.forEach(ani => {
+        if (ani.isIntersecting) {
+          ani.target.style.opacity = 1
+          ani.target.style.transform = 'translateZ(0)'
+        } else {
+          ani.target.style.opacity = 0
+        }
+      })
+    })
+    const h2text = document.querySelectorAll('h2')
+    h2text.forEach(text => {
+      observer.observe(text)
+    })
+    const ptext = document.querySelectorAll('p')
+    ptext.forEach(text => {
+      observer.observe(text)
+    })
   }, [chData])
 
   return (
@@ -49,8 +63,19 @@ export default function Section06() {
             <div className="char_selector">
               {characterData.map((data, i) => {
                 return (
-                  <div className="char_box" key={i} onClick={() => checkNum(i)}>
-                    <img src={data.cellActiveImgUrl} />
+                  <div
+                    className="char_box"
+                    key={i}
+                    onClick={e => {
+                      setChData(characterData[i])
+                      setId(i)
+                    }}
+                  >
+                    <img
+                      src={data.cellActiveImgUrl}
+                      id="visible"
+                      className={`${id === data.id ? 'active' : 'none'}`}
+                    />
                     <img src={data.cellBlackImgUrl} />
                   </div>
                 )
